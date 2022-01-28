@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initail-scale=1">
+    <link rel="shortcut icon" href="favicon3.ico" />
+
+    <meta name="discription" content=" ">
+    <meta name="keywords" content="HTML5, canvas, web, javascript, html, css, css3">
+    <meta name="author" content="Mahmudul Hasan">
+
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Include FontAwesome CSS if you want to use feedback icons provided by FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Creative Designer Resume</title>
+</head>
+
+<body>
+
+   <div class="container">
+       <div class="row">
+        <form role="form" class="form-horizontal" data-toggle="validator" id="contactForm">
+            <div class="form-group has-feedback">
+                <div class="col-sm-3 text-right"><label for="userName" class="control-label">Name</label></div>
+                <div class="col-sm-9">
+                <input type="text" id="userName" class="form-control" maxlength="30" data-minlength="2" data-error="Name must contain at least 2 character" required>
+                <span class="form-control-feedback glyphicon"></span>
+                <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <div class="col-sm-3 text-right"><label for="userEmail" class="control-label">Email</label></div>
+                <div class="col-sm-9">
+                <input type="email" id="userEmail" class="form-control" data-error="Hey bruh, This is not valid email address" required>
+                <span class="form-control-feedback glyphicon"></span>
+                <div class="help-block with-errors">example@email.com</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-3 text-right">
+                    <label for="userPhoneNumber" class="control-label">Phone</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="text" id="userPhoneNumber" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-3 text-right">
+                    <label for="subject" class="control-label">Subject</label>
+                </div>
+                <div class="col-sm-9">
+                    <input type="text" id="subject" class="form-control">
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <div class="col-sm-3 text-right"><label for="userMessage" class="control-label">Message</label></div>
+                <div class="col-sm-9"><textarea type="text" id="userMessage" class="form-control" data-error="Hey man! this is required field" required></textarea>
+                <!--<span class="form-control-feedback glyphicon"></span>-->
+                <div class="help-block with-errors">What do you think about us?</div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info pull-left submit col-sm-offset-3">Submit</button>
+            <div class="submission-msg text-center hidden">Massege Submitted Successful !!!!</div>
+        </form>
+       </div>
+   </div>
+   
+    <!-- jQuery and Bootstrap JS -->
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Validator JS -->
+    <script type="text/javascript" src="js/validator.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--jQuery CDN Service -->
+    <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+  <!--Latest compiled and minified JavaScript Bootstrap-->
+    <!--
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

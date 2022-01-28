@@ -1,0 +1,408 @@
+
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    color: whitle;
+    background-color: #DFE3E5;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav_top_section {
+  height: auto;
+    width: 100%;
+}
+.nav_top_section span.email, .nav_top_section span.number { 
+    display: block;
+    padding: .98em 0em;
+}
+.nav_top_section .social_button { 
+	padding: .84em 0em; 
+}
+.nav_top_section .social_button span {
+	color: #000;
+	background-color: #fff;
+	font-size: 1.2em;
+	padding: .3em;
+	border-radius: 50%; 
+    display: inline;
+}
+.logo span {
+  color: #2C3E50;
+  font-size: 2.5em;
+  line-height: 1;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-style: italic;
+}
+.logo span i.green{
+    color: #30CB6F;
+}
+.logo small {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  font-size: 1.2em;
+  line-height: 1;
+  letter-spacing: 7px;
+  color: #2C3E50;
+  font-weight: 500;
+}
+.logo {
+  background-color: #fff;
+  width: 250px;
+  text-align: center;
+  height: 70px;
+  padding: 0.5em 0em;
+}
+.header_area .menu.navbar {
+  border: none;
+  border-radius: 0px;
+  min-height: 70px;
+  margin-bottom: 0px;
+}
+.header_area .menu.navbar-inverse {
+  background-color: #2D3E50;
+}
+.header_area .navbar-nav>li>a {
+  padding: 25px 15px;
+}
+
+.menu .navbar-btn.menu_btn{
+    margin: 18px 0px;
+}
+.menu .navbar-toggle{
+    margin: 18px 18px 0px;
+}
+hotel_info {
+  padding: 18px;
+  background-color: white;
+  overflow:hidden;
+}
+.hotel_info_bg{
+    min-height: 170px;
+    background-image: url("../images/Hotel-and-Resor9.jpg");
+    background-color: bisque;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+}
+
+.hotel_info h3 {
+  color: #2C3E50;
+  font-size: 18px;
+}
+.hotel_info p {
+  color: #8E8E8E;
+  font-size: 15px;
+}
+.padding_left_0 {
+  padding-left: 0px;
+}
+.padding_0 {
+  padding: 0px;
+}
+.padding_right_0 {
+  padding-right: 0px;
+}
+.hotel_info {
+  overflow: hidden;
+  padding-bottom: 2em;
+  /*! padding-left: 2em; */
+}
+.hotel_info.right_side {
+  padding-left: 2em;
+}   
+.btn-default.btn.hotel_info_button { 
+    color: #21B761;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+.btn-default.btn.hotel_info_button:hover{ 
+    text-decoration: underline;
+}
+.hotel_overview h3{
+    color: white;
+    background-color: #21B761;
+    font-size: 27px;
+    padding: 20px 20px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.gallery.hotel_overview h3{
+    background-color: #2C3E50;
+}
+.hotel_overview ul{
+    list-style: none;
+    background-color: #2ECC71;
+    padding: 23px 18px;
+}
+.hotel_overview ul li {
+    line-height: 1.887;
+    color: white;
+    font-size: 16px;
+}
+.banner-top.bg_banner {
+  background-image: url("../images/Hotel-and-Resor-bannert.jpg");
+  background-size: cover;
+  background-position: center;
+    position: relative;
+}
+
+.bg_our_hotel {
+  background-image: url("../images/Hotel-and-Resort11t.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 20px;
+}
+.customer_news_touch, .news{
+    padding: 18px;
+}
+.customer_news_touch p {
+  padding-left: 2.5em;
+  position: relative;
+  padding-bottom: 2em;
+  padding-right: 1em;
+}
+.customer_news_touch .customer {
+  padding-left: 3em;
+    padding-bottom: 0.8em;
+}
+.news_article p {
+    padding: 0px;
+    color: #ADAFB0;
+} 
+.customer .customer_saying span{
+    display: block;
+    color: grey;
+}
+.customer_news_touch p span i.fa.fa-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+  color: #808080;
+}
+.customer_news_touch p span i.fa.fa-quote-right {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin-bottom: 1em;
+  /*! margin-right: 2em; */
+  font-size: 1.5em;
+  color: #808080;
+} 
+.customer_saying {
+    padding: 0px;
+    margin-left: 80px;
+}
+.customer_news_touch h3{
+    padding: 0px;
+    background-color: #21B761;
+     font-size: 27px;
+     font-weight: 700;
+        margin: 0px 0px 18px 0px;
+}
+.customer_news_touch h3.bg_white_news, .bg_white_news, h3.bg_white_news {
+    background-color: #FFF;
+
+}
+.get_in_touch {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.get_in_touch li { 
+  margin-bottom: .8em;
+  color: grey;
+}
+ul.get_in_touch li span {
+  width: 2em;
+  height: 2em;
+  font-size: 1.3em; 
+  background-color: white;
+  line-height: 2em;
+  margin-right: 1em;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid wheat;
+  border-radius: 50%;
+}
+.news_latter_map{
+    position: relative;
+}
+.bg_latter{
+    background-image: url("../images/Hotel-and-Resort7t.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 372px;
+    width: 50%;
+    float: left;
+   
+}
+.newslatter{
+    position: absolute;
+    top: 40px;
+    right: 52%;
+}
+.customer_news_touch a {
+	display: block;
+	margin-bottom: 1.3em;
+}
+.customer_news_touch a:hover {
+  background-color: #DFE3E5;
+}
+.customer_news_touch.bg_white_news {
+	margin-top: -10px;
+	padding-top: 1.8em;
+}
+.newslatter_content span{
+    display: block;
+    color: white;
+}
+.newslatter_content strong{
+    font-size: 35px;
+    line-height: 1;
+}
+.newslatter_content .form-group {
+    margin: 15px 0px;
+    background-color: white;
+    padding: 16px 12px;
+    width: 100%;
+}
+.newslatter_content .btn.btn-success{
+    border: 1px solid transparent;
+}
+.bg_map{/*
+    background-image: url("../images/Hotel-and-Resort-map.jpg");
+    background-size: cover;
+    background-position: center;*/
+    min-height: 372px;
+    width: 50%;
+    float: left;
+}
+
+
+h3.clr_grey{
+    color: grey;
+    background-color: transparent;
+}
+.bg_our_hotel h4 {
+  color: white;
+  font-weight: 600;
+  font-size: 27px;
+}
+.bg_our_hotel h5 {
+  color: white;
+  font-size: 27px;
+  font-weight: 200;
+  margin: 15px 0px 30px 0px;
+}
+.bg_our_hotel .form-control {
+	border: none;
+	border-radius: 0px;
+	padding: 1em .5em;
+	background-color: white;
+	color: green;
+	height: auto;
+}
+
+.bg_our_hotel .btn.btn-default.check_availibility {
+  background-color: #2ECC71;
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: open-sans;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  margin: 10px 0px 24px 0px;
+}
+.hotel_overview ul li > span {
+  /*! padding: .3em; */
+  margin-right: 1em;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 1.4em;
+  height: 1.4em;
+  text-align: center;
+  line-height: 1.3em;
+  margin-bottom: .5em;
+  font-size: 1.1em;
+}
+.bg_our_hotel p {
+  color: white;
+} 
+.news_article img {
+  margin: ;
+  margin-right: 12px;
+}
+.news_article h4 {
+  color: #545454;
+  margin-top: 0px;
+}
+.final_speech, footer {
+  background-color: #2C3E50;
+}
+.about_us_content h3, .blog_content h3,.news_content h3 {
+  color: #19A15E;
+  font-size: 27px;
+}
+.news_content .news_article h4{
+    color: #E2DEDE;
+}
+.newslatter_content .form-control{
+     width: 270px;
+}
+.news_content a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.news_content a:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.about_us_content p, .blog_content p, footer p {
+  color: #818992;
+}
+footer p {
+    padding: 30px 0px;
+}
+
+.table_banner{
+    display: table;
+    width: 100%;
+  height: 660px;
+}
+.tablecell{
+    display: table-cell;
+    margin: auto 0;
+}
+.banner_title h2.title {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+.banner_title h2.title span {
+  color: #30CB6F;
+}
+.tablecell p {
+  color: white;
+}
+.tablecell .btn.banner_btn, .header_area .btn.menu_btn{
+    border-radius: 20px;
+    padding: 6px 24px;
+} 
+.tablecell .btn-sucess.btn_banner, .header_area .btn-success.menu_btn{
+    background-color: #30CB6F;
+    border: 1px solid transparent;
+}
+.banner_title, .banner_p{
+    margin: 190px 0px;
+}
+.hotel_information{
+    margin-top: -45px;
+}

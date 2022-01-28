@@ -1,0 +1,355 @@
+body{
+    color: grey;
+    line-height: 1.5;
+}
+.header_area .navigationBar.navbar {
+  min-height: 5.5em;
+    margin-bottom: 0px;
+}
+
+.header_area .navigationBar.navbar-inverse {
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
+}
+.header_area .navigationBar.navbar-inverse .navbar-nav>li>a {
+  color: #FEA100;
+  text-transform: uppercase;
+}
+.header_area .navbar-nav >li> a {
+  padding: 2em 1em;
+}
+.header_area .navigationBar.navbar-inverse .navbar-toggle{
+    margin: 2em 1em;
+     border-color: #FEA100;
+}
+.header_area .navigationBar.navbar-inverse .navbar-collapse{
+    border-color: #FEA100;
+}
+.header_area .navigationBar.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #FEA100;
+}
+.header_area .logo {
+    margin: .25em 0em;
+}
+.header_area .navbar-nav li a.luxuryNavBtn {
+  background-color: #FEA100;
+  padding: .6em 2em;
+  color: #FFF !important;
+  margin: 1.3em 0em;
+  border-radius: .3em;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+.section_padding{
+    padding: 3em 0em;
+}
+.blog{
+    position: relative;
+}
+.leaf{
+    position: absolute;
+    top: -10%;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+}
+.leaf_left{
+    left: 29%;
+    
+}
+.leaf_right{
+    right: 29%;
+    
+}
+.feature_aticle h2 {
+    color: black;
+    font-size: 2.3em;
+}
+
+.quotation i.fa {
+  display: inherit;
+  font-size: 1.5em;
+  color: #FEA100;
+}
+.well-lg.quotation p {
+    font-size: 1.2em;
+    color: black;
+}
+.archive{
+    color: black;
+}
+.table.archive_table > tbody > tr > td{
+    border: 1px solid transparent;
+}
+.quotation .fa.fa-quote-left.text-left {
+  margin-bottom: -21px;
+  margin-left: -24px;
+}
+.quotation .fa.fa-quote-right.text-right {
+  margin-right: -23px;
+  margin-top: -29px;
+}
+.random_conten p strong {
+  color: black;
+  font-size: 1.2em;
+}
+.row.pagination_seciton {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.pagerHolder .pager{
+    text-align: left;
+}
+.pagerHolder .pager li a.active, .pagerHolder .pager li a:hover{
+    background-color: #FEA100;
+    color: white;
+}
+.pagerHolder .pager li > a{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #FFEAC5;
+    border: none;
+    border-radius: 30px;
+}
+.tags {
+  color: #FEA100;
+  background-color: #FFEAC5;
+  padding: .7em 2em;
+  border-radius: 2em;
+    display: inline-block;
+    margin: 3px;
+}
+.tag_list {
+    overflow: hidden;
+}
+.catagory h4 {
+  color: black;
+  font-size: 2em;
+}
+.catagory a.list-group-item, button.list-group-item {
+    color: black;
+    text-transform: uppercase;
+    border: none;
+}
+.post h5 {
+    margin-top: .17em;
+    font-size: 1.15em;
+}
+
+.recent_post {
+  color: black;
+}
+.recent_post h4 {
+  font-size: 2em;
+}
+.post img {
+  width: 70px;
+  height: 70px;
+  margin-right: .3em;
+}
+.post date {
+  color: grey;
+}
+.post {
+  margin-top: 1.3em;
+}
+.comment{
+    background-color: #EDF1F3;
+}
+div.comment_box_item{
+    margin-top: 2em;
+}
+span.reply {
+    color: black;
+}
+span i.fa{
+    margin-right: 1em;
+}
+span.time{
+    color: yellow;
+}
+span.name{
+    color: black;
+    margin-right: .3em;
+}
+.about_us h1 {
+  font-size: 4.5em;
+  color: white;
+  position: relative;
+  margin: .5em;
+}
+.comment_box h3{
+    font-size: 2.7em;
+}
+/*h1 {
+}
+.about_us h1:before, .about_us h1:after {
+  position: absulate;
+  top: 5O%;
+}
+.about_us h1:before{
+    content: "url(images/leaf_left.png)";
+    left: 0;
+}
+.about_us h1:after {
+    content: "url(images/leaf_right.png)";
+    right: 0;
+}*/
+.about_us {
+  background-color: #7D8587;
+}
+
+
+.nav_news_apps {
+  background-color: #373844;
+  color: white;
+}
+
+.nav_nap h3 {
+  margin-bottom: 1.2em;
+}
+
+.nav_nap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_nap ul li {
+  padding: .2em;
+}
+.nav_nap ul li a {
+  color: grey;
+}.nav_nap .form-inline .form-control {
+  width: 75%;
+  background-color: transparent;
+  color: #EC971F;
+}
+.nav_nap .button-group {
+  margin-top: .5em;
+  font-size: 2em;
+}
+.nav_nap .button-group .group-item {
+  padding-right: 1em;
+}
+
+.feature_img {
+    min-height: 400px;
+    width: 100%;
+    background: #d3d3d3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.datePrent {
+  background-color: #FEA100;
+  padding: 3px;
+}
+.dateHolder {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 4px;
+}
+.dateHolder span {
+  display: block;
+  color: white;
+}
+.dateHolder strong {
+  font-size: 2em;
+    padding-bottom: 4px;
+}
+.dateHolder small {
+    font-size: 1.2em;
+}
+
+.appbox .apple i.fa, .appbox .google i.fa {
+  color: #EC971F;
+  font-size: 4em;
+}
+.appbox .google i.fa{
+    color: #DE5145;
+}
+.apple, .google {
+  overflow: hidden;
+}
+.google{
+    margin-top: .7em;
+}
+.apple span, .google span {
+  display: block;
+}
+.apple strong, .google strong {
+  font-size: 1.6em;
+}
+
+#Luxury_blog_form .form-blog {
+  width: 100%;
+  padding: .9em;
+  border-bottom: 1px solid grey;
+  box-shadow: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: grey;
+}
+.pagerHolder, .like, .social {
+    display: inline-block;
+}
+
+.pagerHolder {
+  width: 48%;
+  text-align: left;
+}
+.like {
+  width: 15%;
+  text-align: center;
+}
+.social {
+  width: 35%;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  color: green;
+  /*! margin-right: -15em; */
+}
+.social span {
+  /*! padding: 5px; */
+  border: 1px solid green;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  padding: 9px 11px;
+  background-color: gainsboro;
+}
+
+.comment_btn {
+  padding: .3em;
+  background-color: #EC971F;
+  width: 142px;
+  border-radius: 4px;
+  margin: .8em;
+  margin-left: -0.1em;
+}
+.comment_btn .btn.btn-warning {
+  background-color: transparent;
+  border-color: white;
+    text-transform: uppercase;
+}
+footer{
+    background-color: #373844;
+    padding: .3em;
+    color: grey;
+}
+footer p{
+    position: relative;
+}
+/*
+footer p:before, footer p:after{
+    content: "div";
+    width: 2em;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    color: grey;
+}
+*/

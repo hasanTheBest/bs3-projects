@@ -1,0 +1,6 @@
+.jd-form .form-control {
+  background-color: rgb(247, 247, 247); 
+  max-width: 370px;
+  height: 50px; 
+  line-height: 50px;
+}

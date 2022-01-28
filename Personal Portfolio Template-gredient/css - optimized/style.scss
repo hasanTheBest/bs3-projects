@@ -1,0 +1,430 @@
+html,
+body {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+
+body {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(88, 88, 88);
+    line-height: 1.857;
+}
+.area-padding{
+	padding: 4em 0em;
+}
+.hero-area {
+    background-image: url(../images/hero_bg.jpg);
+    background-size: cover;
+    background-position: right top;
+    position: relative;
+    max-height: 900px;
+    color: #fff;
+    z-index: 1;
+    height: 100%;
+    &:after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(0, 0, 0);
+        background-image: -moz-linear-gradient( -45deg, rgb(170, 0, 255) 0%, rgb(245, 0, 87) 100%);
+        background-image: -webkit-linear-gradient( -45deg, rgb(170, 0, 255) 0%, rgb(245, 0, 87) 100%);
+        background-image: -ms-linear-gradient( -45deg, rgb(170, 0, 255) 0%, rgb(245, 0, 87) 100%);
+        opacity: 0.851;
+        z-index: -1;
+    }
+
+    @at-root{ header {
+        clear: both;
+        .jd-logo {
+            width: 91px;
+            height: 41px;
+            display: block;
+            float: left;
+        }}
+        .navigation {
+            .jd-menu {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                text-align: right;
+                li {
+                    display: inline-block;
+                    a {
+                        font-family: "Montserrat";
+                        color: #fff;
+                        text-transform: uppercase;
+                        line-height: 1.643;
+                        display: block;
+                        padding: .5em 1em;
+                        border: 1px solid transparent;
+                        transition: color .3s;
+                        &:hover,
+                        &.active {
+                            color: rgb(51, 51, 51);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hero-body {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: auto;
+        transform: translateY(-50%);
+        @at-root{.hero-content {
+            h1 {
+                font-size: 55px;
+                font-family: "Montserrat";
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.309;
+                text-align: left;
+            }
+            p {
+                line-height: 1.714;
+                margin-bottom: 2em;
+            }
+            .jd-btn {
+                border-width: 2px;
+                border-color: rgb(255, 255, 255);
+                border-style: solid;
+                width: 146px;
+                height: 42px;
+                background-color: transparent;
+                line-height: 42px;
+                text-align: center;
+                border-radius: 15px;
+                transition: background-color .3s, color .4s;
+                &:hover {
+                    color: #c3a;
+                    background-color: #fff;
+                }
+            }}
+        }
+    }
+}
+
+.about-section {
+    .jd-heading-title {
+        font-size: 36px;
+        font-family: "Montserrat";
+        color: rgb(170, 0, 255);
+        font-weight: bold;
+        line-height: 1.278;
+        text-align: center;
+    }
+    .author-img {
+        background-color: rgb(204, 51, 51);
+        max-width: 400px;
+        margin: 0 auto;
+        min-height: 471px;
+        img {
+            width: 100%;
+            min-height: 471px;
+        }
+    }
+    .social-link {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        &>a {
+            font-size: 20px;
+            color: rgb(254, 254, 254);
+            line-height: 40px;
+            display: inline-block;
+            background-color: rgb(51, 51, 51);
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            transition: background-color .3s;
+            &.active,
+            &:hover {
+                background-color: rgb(170, 0, 255);
+                color: #fff;
+            }
+        }
+    }
+    @at-root{
+    .about-content {
+        h4 {
+            font-size: 24px;
+            font-family: "Montserrat";
+            color: rgb(51, 51, 51);
+            line-height: 1;
+        }
+        p {
+            line-height: 1.857;
+            max-width: 693px;
+            margin-bottom: 1.5em;
+        }
+        .btn-div {
+            .about-btn {
+                border: 2px solid rgb(51, 51, 51);
+                border-radius: 20px;
+                padding: .4em 1.5em;
+                margin-right: 1em;
+                background-color: #fff;
+                color: rgb(51, 51, 51);
+                transition: background-color .4s;
+                &.download,
+                &:hover {
+                    color: #fff;
+                    background-color: rgb(170, 0, 255);
+                    border: 2px solid transparent;
+                }
+            }
+        }}
+    }
+}
+
+.section-title {
+    font-size: 30px;
+    color: rgb(170, 0, 255);
+    font-weight: bold;
+    line-height: 0.867;
+    position: relative;
+    padding-bottom: .5em;
+    margin-bottom: 1.5;
+    text-align: center;
+    &:after {
+        position: absolute;
+        content: "";
+        left: 50%;
+        bottom: 0;
+        margin-left: -65px;
+        background-color: rgb(88, 88, 88);
+        width: 130px;
+        height: 2px;
+    }
+}
+
+.section-p {
+    line-height: 1.857;
+    max-width: 798px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.services-section {
+    background-color: rgb(247, 247, 247);
+    @at-root{
+    .service-card {
+        background-color: rgb(255, 255, 255);
+        max-width: 370px;
+        margin: 0 auto;
+        text-align: center;
+        transition: box-shadow .4s;
+        padding: 2.5em 1.5em;
+        margin-bottom: 2.5em;
+        .card-icon {
+            border-width: 3px;
+            border-color: rgb(170, 0, 255);
+            border-style: solid;
+            border-radius: 50%;
+            width: 81px;
+            height: 81px;
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 1.5em;
+            i.fa {
+                font-size: 40px;
+                color: rgb(170, 0, 255);
+            	line-height: 81px;
+            }
+        }
+        h4{   	
+  			font-size: 16px; 
+  			color: rgb(51, 51, 51); 
+  			line-height: 1.625;
+        }
+        &.active,
+        &:hover {
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.196);
+        }}
+    }
+}
+.portfolio-section{
+	.portfolio-body{
+		@at-root{
+        .isotop-nav{
+			margin-bottom: 1em;	
+			clear: both;
+			@at-root{
+                .port-menu{
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				text-align: center;
+				margin-bottom: 2em;
+				margin-top: 1em;
+				li{
+					display: inline-block;			
+				    border-width: 1px;
+				    border-color: rgb(51, 51, 51);
+				    border-style: solid;
+				    font-family: "Montserrat";
+				    color: rgb(51, 51, 51);
+				    line-height: 1.857;
+				    padding: .5em 1.3em;
+				    background-color: #fff;
+				    transition: all .3s;
+					&.active, &:hover{
+						background-color: rgb(170, 0, 255);
+						color: #fff;
+						border: 1px solid transparent;
+					}
+			}}	}
+		}
+		.portfolio-content{
+			.item{
+				width: 33.3333%;
+			    float: left;
+			    margin-bottom: 2em;
+			    &>img{
+			    	width: 100%;
+			    	height: auto;
+			    }
+			}
+		}}
+	}
+}
+
+.reviews-section{
+	text-align: center;
+    background-color: rgb(247, 247, 247);
+    .reviews-body{
+            .carousel-indicators{
+			bottom: -1.7em;
+			li{
+				 border-radius: 50%;
+ 				 background-color: rgb(123, 123, 123);
+ 				 width: 10px;
+ 				 height: 10px;
+ 				 &.active{
+ 				 	 background-color: rgb(0, 0, 0);
+ 				 }
+			}
+		}
+		@at-root{
+            .client-talk{
+			background-color: rgb(255, 255, 255); 
+  			max-width: 770px; 
+  			margin-left: auto;
+  			margin-right: auto;  
+  			padding: 1em 2em;
+  			margin-top: 5em;
+  			padding-top: 6em;
+  			margin-bottom: 1.5em; 
+		}
+		.client-avatar{
+			border-radius: 50%;
+			border-type: solid;
+		  border-color: rgb(170, 0, 255);
+		  border-width: 4px;
+		  position: absolute;
+		  left: 50%;
+		  top: 0;
+		  margin-left: -61px;
+		  margin-top: -61px;
+		  width: 122px;
+		  height: 122px;
+		  z-index: 99;
+		  &>img{
+				width: 100%;
+				height: 100%;
+		  }
+		}
+		.client-name{
+			font-size: 16px; 
+		  color: rgb(51, 51, 51);
+		  font-weight: bold; 
+		  line-height: 1.625;
+		  text-align: center;
+		}
+		.client-text{
+			margin-bottom: 	1em;
+		}
+		.client-rating{
+			&>span{
+				display: inline-block;
+				i.fa{
+				color: rgb(246, 142, 86); 
+  				font-size: 16px;
+  				line-height: 15px;
+				}
+			}
+			
+		}}
+	}
+}
+.contact-section{
+	.jd-form{
+		max-width: 800px;
+		margin: 0 auto;
+		margin-top: 1em;
+		.form-control{
+			 background-color: rgb(247, 247, 247); 
+ 			 height: 50px;
+ 			 line-height: 50px;
+ 			 border: 2px solid transparent;
+ 			 box-shadow: none;
+ 			 border-radius: 0px;
+ 			 max-width: 370px;
+ 			 &#Subject{
+ 			 	max-width: 100%;
+ 			 }
+		}
+
+		textarea.form-control{
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.btn-send{
+		background-color: rgb(170, 0, 255);
+		color: #fff;
+		padding: .5em 1.5em;
+		transition: all .4s;
+		border: 2px solid transparent;
+		border-radius: 1.4em;
+		&:hover{
+			background-color: #fff;
+			color: rgb(170, 0, 255);
+			border: 2px solid rgb(170, 0, 255);
+		}
+	}
+}
+footer{
+	text-align: center;
+	padding: .7em 1em;
+	background-color: rgb(170, 0, 255);
+	color: #fff;
+}

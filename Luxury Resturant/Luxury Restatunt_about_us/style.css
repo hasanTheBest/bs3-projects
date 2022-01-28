@@ -1,0 +1,197 @@
+
+.header_area .navigationBar.navbar {
+  min-height: 5.5em;
+    margin-bottom: 0px;
+}
+
+.header_area .navigationBar.navbar-inverse {
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
+}
+.header_area .navigationBar.navbar-inverse .navbar-nav>li>a {
+  color: #FEA100;
+  text-transform: uppercase;
+}
+.header_area .navbar-nav >li> a {
+  padding: 2em 1em;
+}
+.header_area .navigationBar.navbar-inverse .navbar-toggle{
+    margin: 2em 1em;
+     border-color: #FEA100;
+}
+.header_area .navigationBar.navbar-inverse .navbar-collapse{
+    border-color: #FEA100;
+}
+.header_area .navigationBar.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #FEA100;
+}
+.header_area .logo {
+    margin: .25em 0em;
+}
+.header_area .navbar-nav li a.luxuryNavBtn {
+  background-color: #FEA100;
+  padding: .6em 2em;
+  color: #FFF !important;
+  margin: 1.3em 0em;
+  border-radius: .3em;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+.section_padding{
+    padding: 3em 0em;
+}
+
+.about_us h1 {
+  font-size: 4.5em;
+  color: white;
+  position: relative;
+  margin: .5em;
+}
+/*h1 {
+}
+.about_us h1:before, .about_us h1:after {
+  position: absulate;
+  top: 5O%;
+}
+.about_us h1:before{
+    content: "url(images/leaf_left.png)";
+    left: 0;
+}
+.about_us h1:after {
+    content: "url(images/leaf_right.png)";
+    right: 0;
+}*/
+.about_us {
+  background-color: #7D8587;
+}
+
+.history h2 {
+  color: black;
+  margin-bottom: .8em;
+}
+.history_content p {
+  color: #6F7070;
+  line-height: 1.5;
+}
+.history_video {
+  min-height: 320px;
+  width: 100%;
+  background-color: #c61414cc;
+  color: white;
+  margin-top: 2.8em;
+}
+.cooks{
+    background-image: url(images/bg_pattern_grey.png);
+    background-color: grey;
+    background-position: top;
+    background-size: cover;
+    margin-top: 5em;
+}
+.cooks h2 {
+  margin-bottom: 1.3em;
+  font-size: 3em;
+  font-weight: 500;
+}
+.speciality .col-md-6 {
+  padding: 0em 2.5em;
+}
+.speciality_box h3 {
+  color: black;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+.speciality_content h6 {
+  color: black;
+  font-weight: normal;
+  font-size: 1.1em;
+}
+.speciality_content p {
+  color: grey;
+  margin-bottom: 1.8em;
+}
+
+.dateHolder span {
+  display: block;
+}
+.dateHolder span i {
+  color: grey;
+}
+
+.dateHolder span strong {
+  color: orange;
+  font-size: 1.5em;
+}
+.dateHolder {
+  padding: 1.3em 0em;
+}
+.nav_news_apps {
+  background-color: #373844;
+  color: white;
+}
+
+.nav_nap h3 {
+  margin-bottom: 1.2em;
+}
+
+.nav_nap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_nap ul li {
+  padding: .2em;
+}
+.nav_nap ul li a {
+  color: grey;
+}.nav_nap .form-inline .form-control {
+  width: 75%;
+  background-color: transparent;
+  color: #EC971F;
+}
+.nav_nap .button-group {
+  margin-top: .5em;
+  font-size: 2em;
+}
+.nav_nap .button-group .group-item {
+  padding-right: 1em;
+}
+
+.appbox .apple i.fa, .appbox .google i.fa {
+  color: #EC971F;
+  font-size: 4em;
+}
+.appbox .google i.fa{
+    color: #DE5145;
+}
+.apple, .google {
+  overflow: hidden;
+}
+.google{
+    margin-top: .7em;
+}
+.apple span, .google span {
+  display: block;
+}
+.apple strong, .google strong {
+  font-size: 1.6em;
+}
+
+footer{
+    background-color: #373844;
+    padding: .3em;
+    color: grey;
+}
+footer p{
+    position: relative;
+}
+/*
+footer p:before, footer p:after{
+    content: "div";
+    width: 2em;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    color: grey;
+}
+*/

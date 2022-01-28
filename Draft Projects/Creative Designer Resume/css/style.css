@@ -1,0 +1,122 @@
+body{
+    background-image: url("../images/designer_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #1D2228;
+    color: white;
+    font-size: 15px;
+    line-height: 1.4;
+}
+h1,h2,h3,h4{
+    margin-top: 0em;
+    text-transform: uppercase;
+}
+.parent .container-fluid {
+  margin-top: 27em;
+}
+.experience h1, .education h1 {
+  font-weight: 400;
+  text-align: center;
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+  padding-top: .5em;
+  padding-bottom: .5em;
+    margin-bottom: .7em;
+} 
+.exprnc_block h2, .education_block h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #50739B;
+  line-height: 1;
+}
+.exprnc_block, .education_block {
+  margin-bottom: 3em;
+} 
+.exprnc_block h4 , .education_block h4{
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0em;
+}
+.exprnc_block p, .education_block p {
+  margin-top: 2em;
+}
+.center_column {
+  margin-top: -20em;
+  background-color: #293A4B;
+  padding-bottom: 3em;
+  padding-top: 0em;
+  /*! padding-left: 2em; */
+  /*! padding-right: 2em; */
+  text-align: center;
+    position: relative;
+}
+.designer h1 {
+  font-size: 4em;
+  line-height: 1;
+  font-weight: 700;
+}
+.designer h6 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.designer p {
+  border-bottom: 2px dashed white;
+  padding-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+} 
+.img_holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skewX(15deg) rotate(45deg);
+  width: 25rem;
+  height: 25rem;
+  border: 5px solid white;
+    border-radius: 5px;
+}
+.img_holder img {
+  /*! width: 100%; */
+  /*! height\`: 100%; */
+  width: 24rem;
+  height: 24rem;
+  transform: rotate(-45deg) scaleX(-15deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.designer_address {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 2em;
+}
+.designer_block h3 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.designer_block {
+  margin-bottom: 2.5em;
+}
+
+.row .col-sm-12 div {
+  display: inline-block;
+  padding: 1em;
+}
+.icon span.fai {
+  padding: .5em;
+  border: 1px solid white;
+  margin-right: 1em;
+  border-radius: 50%;
+  /*! margin-bottom: 2.5em; */
+  display: inline-block;
+} 
+div.icon {
+  margin-bottom: 1em;
+}
+.icon span i.fa {
+  font-size: 2.5em;
+  text-align: center;
+}

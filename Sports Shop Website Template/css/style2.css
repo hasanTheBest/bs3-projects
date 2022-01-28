@@ -1,0 +1,237 @@
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  font-family: "Museo";
+  color: black;
+  line-height: 1.2; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5em;
+  text-transform: uppercase; }
+
+a {
+  color: inherit; }
+  a:hover {
+    text-decoration: none; }
+
+.header-banner-news{
+	background-image:  url('../images/shop_banner_bg.svg');  
+	background-repeat: no-repeat; 
+	background-color: gray; 
+	background-position: top;
+	background-size: cover; 
+	width: 100%;
+	height:  auto;
+	overflow:  hidden;
+	color: #fff;
+	clear: both;
+	position: relative;
+
+}
+ 
+
+.banner-img {
+  /* background-image: url(../images/race_cycle.png),url(../images/race_cycle_shadow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+   */ }
+
+.logo {
+  width: 15%;
+  float: left; }
+  .logo a {
+    font-size: 20px;
+    font-family: "Museo";
+    line-height: 1;
+    border-bottom: 2px solid #9cf801;
+    text-transform: uppercase; }
+    .logo a .sprots {
+      border-top: 2px solid #9cf801; }
+    .logo a .cross {
+      font-size: 35px;
+      color: #f8de01; }
+
+.navigation {
+  width: 85%;
+  float: left;
+  color: white; }
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right; }
+    .navigation ul li {
+      display: inline-block;
+      font-weight: 500; }
+      .navigation ul li a {
+        font-size: 17px;
+        text-transform: uppercase;
+        display: block;
+        padding: .5em 1em;
+        transition: color .3s ease; }
+        .navigation ul li a:hover {
+          color: #f8de01; }
+
+.bannar {
+  margin-bottom: 2em; }
+
+.banner-content {
+  padding-top: 3em; }
+  .banner-content h1 {
+    font-size: 47px;
+    font-family: "Museo";
+    line-height: 1;
+    font-style: italic;
+    margin-bottom: 1em; }
+  .banner-content p {
+    margin-bottom: 2.5em; }
+  .banner-content a.click-here {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f8e401;
+    background-color: rgba(33, 33, 33, 0);
+    position: relative;
+    width: 203px;
+    height: 56px;
+    display: block;
+    text-align: center;
+    color: #9cf801;
+    transform: skewX(-30deg);
+    font-weight: bold;
+    margin: 1em 0em 1em 1em; }
+    .banner-content a.click-here span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: skewX(30deg);
+      line-height: 56px;
+      display: block; }
+
+.banner-img {
+  position: relative;
+  padding-top: 3em; }
+  .banner-img img {
+    width: 100%;
+    height: auto; }
+
+.clear-all {
+  clear: both; }
+
+.news-box {
+  background: yellow;
+  margin-bottom: 2em;
+  overflow: hidden;
+  clear: both;
+  height: 280px; }
+  .news-box.first, .news-box.fourth {
+    background: linear-gradient(-50deg, #f8de01 40%, black 40%);
+    color: #fff; }
+    .news-box.first a.read-more, .news-box.fourth a.read-more {
+      color: #f8de01; }
+  .news-box.second, .news-box.thrid {
+    background: linear-gradient(-50deg, black 40%, #f8de01 40%);
+    color: #000; }
+    .news-box.second a.read-more, .news-box.thrid a.read-more {
+      color: black; }
+  .news-box .news-content {
+    width: 55%;
+    float: left;
+    padding: 1em; }
+    .news-box .news-content h4 {
+      font-size: 25px;
+      margin-bottom: 1em; }
+    .news-box .news-content p {
+      margin-bottom: 1.5em; }
+    .news-box .news-content a.read-more {
+      position: relative; }
+      .news-box .news-content a.read-more:after {
+        content: "+";
+        position: absolute;
+        font-size: 18px;
+        margin-left: 5px;
+        top: auto;
+        left: auto; }
+  .news-box .news-img {
+    width: 45%;
+    float: left; }
+
+.products-section {
+  background-color: #dde6e8;
+  color: #000;
+  position: relative;
+  /* stop at-root */ }
+  .section-heading {
+    max-width: 914px;
+    margin: 0 auto;
+    text-align: center; }
+    .section-heading h2 {
+      font-size: 33px;
+      margin-bottom: .8em; }
+    .section-heading p {
+      margin-bottom: 2em; }
+
+/* stop section-heading */
+  .product-card {
+    background-color: #fff;
+    padding: 1em;
+    overflow: hidden; }
+    .product-card .product-img {
+      width: 100%;
+      margin-bottom: .5em;
+      background-color: #dde6e8;
+      text-align: center; }
+    .product-card .product-name {
+      float: left;
+      display: inline-block; }
+    .product-card .product-price {
+      float: right;
+      display: inline-block; }
+
+
+.performance-section-1{
+  /* background-image: url('../images/shop_bg_2.svg');
+  background-position: top;
+  -webkit-background-size: cover;
+  background-size: cover; */
+  background-color: #fff;
+  z-index: 0;
+  position: relative;
+}
+.performance-section-1 .row{
+	/* background-image: url('../images/exercising_img_1.png');
+	background-position: right;
+	background-repeat: no-repeat; */
+}
+.performance-section-1 .svg-top.right{
+	z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100vw 300px 0;
+    border-color: transparent #dde6e8 transparent transparent;
+}
+.performance-section-2{
+  background-image: url('../images/shop_bg_3.svg');
+  background-position: top;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.newslatter-section{
+  background-size: cover;	
+  padding:  3em 0em;
+  background-color: #999;
+}
+.footer-top{
+	background-color: #000;
+	color:  white; 
+	background-image: url('../images/shop_bg_4.svg');
+  background-position: top;
+  -webkit-background-size: cover;
+}

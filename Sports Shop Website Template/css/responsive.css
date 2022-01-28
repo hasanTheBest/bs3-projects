@@ -1,0 +1,42 @@
+/*==================================================
+            Bootstrap 3 Media Queries             
+==================================================*/
+/*==========  Desktop First  Method  ==========*/
+
+/*-----------------------------------------------------------------------
+	TABLE OF CONTENTS
+-------------------------------------------------------------------------
+	1. Start Header  
+============================================================================*/
+
+/*--------------------------------
+  1. Start Header
+----------------------------------*/
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {}
+
+/* Mutant Responsive Hero Area Desgin */
+@media (max-width: 469px) and (min-height: 536px)
+@media (min-height: 301px) and (max-height: 500px)
+@media (max-height: 300px)
+@media(max-width: 468px) and (max-height: 440px)
+@media (max-height: 430px)
